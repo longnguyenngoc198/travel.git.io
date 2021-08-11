@@ -1,0 +1,60 @@
+/* moblet */
+@media (max-width: 1023px) {
+    .hide-on-moblet {
+        display: none;
+    }
+
+    .navbar__list {
+        display: none;
+    }
+    
+    .header-container {
+        padding-top: 100%;
+    }
+    .search-select-box {
+        width: 300px;
+    }
+    .best-packages {
+        margin-top: 6px;
+    }
+    .content__label {
+        margin: 25px 0;
+    }
+    .navbar-best-packages {
+        background-color: #555;
+    }
+    .moblet-menu {
+        display: block;
+    }
+}
+
+/* mobile */
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+    .search__label {
+        display: none;
+    }
+    .search__desrc {
+        margin-bottom: 16px;
+        font-size: 1.6rem;
+    }
+    .header__wrap {
+        flex-direction: column;
+    }
+    .proposals {
+        margin: 4px 8px;
+    }
+    .banner {
+        margin: 40px 0;
+    }
+    .banner-mobile-box  {
+        display: flex;
+    }
+}
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+}
