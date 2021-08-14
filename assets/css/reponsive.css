@@ -26,6 +26,45 @@
     .moblet-menu {
         display: block;
     }
+    .beaches {
+        text-align: center;
+    }
+    .beaches__book {
+        margin: 24px auto;
+    }
+    .tour {
+        margin: 30px 0 15px;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .tour-box-img {
+        margin: 16px 0;
+    }
+    .slidershow-box {
+        margin: 0;
+    }
+    .discover-molet {
+        margin: 32px 0;
+    }
+    .footer-heading {
+        flex-direction: column;
+        justify-content: left;
+    }
+    .footer-heaing-box {
+        width: 100%;
+    }
+    .footer__contact-us {
+        width: 100%;
+        display: flex;
+        margin-left: 0;
+    }
+    .footer-contact__input {
+        width: 500px;
+    }
+    .footer__main {
+        display: none;
+    }
 }
 
 /* mobile */
@@ -52,9 +91,15 @@
     .banner-mobile-box  {
         display: flex;
     }
+    .discount {
+        padding: 8px;
+    }
+    
 }
 
 /* tablet */
 @media (min-width: 740px) and (max-width: 1023px) {
-
+    .discount {
+        margin-bottom: 16px;
+    }
 }
